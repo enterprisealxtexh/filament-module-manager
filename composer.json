@@ -53,18 +53,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Alizharb\\FilamentModuleManager\\": "src"
+      "EnterpriseAlxtexh\\FilamentModuleManager\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Alizharb\\FilamentModuleManager\\Tests\\": "tests"
+      "EnterpriseAlxtexh\\FilamentModuleManager\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Alizharb\\FilamentModuleManager\\FilamentModuleManagerServiceProvider"
+        "EnterpriseAlxtexh\\FilamentModuleManager\\FilamentModuleManagerServiceProvider"
       ]
     }
   },
