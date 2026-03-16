@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Services;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Services;
 
-use Alizharb\FilamentModuleManager\Data\ModuleHealthData;
-use Alizharb\FilamentModuleManager\Models\ModuleHealthCheck;
+use EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleHealthData;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\ModuleHealthCheck;
 use Illuminate\Support\Facades\File;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Data;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Data;
 
 use Spatie\LaravelData\Data;
 

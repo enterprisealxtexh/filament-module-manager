@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Services;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Services;
 
-use Alizharb\FilamentModuleManager\Data\ModuleUpdateData;
-use Alizharb\FilamentModuleManager\Exceptions\UpdateException;
+use EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleUpdateData;
+use EnterpriseAlxtexh\FilamentModuleManager\Exceptions\UpdateException;
 use Illuminate\Support\Facades\File;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 
@@ -115,7 +115,7 @@ class ModuleUpdateService
             }
 
             // Install the update
-            $moduleManagerService = app(\Alizharb\FilamentModuleManager\Services\ModuleManagerService::class);
+            $moduleManagerService = app(\EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleManagerService::class);
             $result = $moduleManagerService->installModulesFromZip($zipPath, true);
 
             // Cleanup

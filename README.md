@@ -7,10 +7,10 @@
 <div align="center">
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/alizharb/filament-module-manager.svg?style=for-the-badge&color=orange)](https://packagist.org/packages/alizharb/filament-module-manager)
-[![Total Downloads](https://img.shields.io/packagist/dt/alizharb/filament-module-manager.svg?style=for-the-badge&color=green)](https://packagist.org/packages/alizharb/filament-module-manager)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/enterprisealxtexh/filament-module-manager.svg?style=for-the-badge&color=orange)](https://packagist.org/packages/enterprisealxtexh/filament-module-manager)
+[![Total Downloads](https://img.shields.io/packagist/dt/enterprisealxtexh/filament-module-manager.svg?style=for-the-badge&color=green)](https://packagist.org/packages/enterprisealxtexh/filament-module-manager)
 [![GitHub Stars](https://img.shields.io/github/stars/AlizHarb/filament-module-manager.svg?style=for-the-badge&color=yellow)](https://github.com/AlizHarb/filament-module-manager/stargazers)
-[![PHP Version](https://img.shields.io/packagist/php-v/alizharb/filament-module-manager.svg?style=for-the-badge&color=purple)](https://packagist.org/packages/alizharb/filament-module-manager)
+[![PHP Version](https://img.shields.io/packagist/php-v/enterprisealxtexh/filament-module-manager.svg?style=for-the-badge&color=purple)](https://packagist.org/packages/enterprisealxtexh/filament-module-manager)
 
 </div>
 
@@ -125,7 +125,7 @@
 ### Step 1: Install via Composer
 
 ```bash
-composer require alizharb/filament-module-manager
+composer require enterprisealxtexh/filament-module-manager
 ```
 
 ### Step 2: Register the Plugin
@@ -133,7 +133,7 @@ composer require alizharb/filament-module-manager
 Add to your `AdminPanelProvider`:
 
 ```php
-use Alizharb\FilamentModuleManager\FilamentModuleManagerPlugin;
+use EnterpriseAlxtexh\FilamentModuleManager\FilamentModuleManagerPlugin;
 
 public function panel(Panel $panel): Panel
 {
@@ -311,7 +311,7 @@ In your `module.json`:
 #### Usage Example
 
 ```php
-use Alizharb\FilamentModuleManager\Services\ModuleDependencyService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleDependencyService;
 
 $service = app(ModuleDependencyService::class);
 
@@ -367,7 +367,7 @@ Add repository to `module.json`:
 #### Usage Example
 
 ```php
-use Alizharb\FilamentModuleManager\Services\ModuleUpdateService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleUpdateService;
 
 $service = app(ModuleUpdateService::class);
 
@@ -419,7 +419,7 @@ Automatic backups before critical operations with one-click restore.
 #### Usage Example
 
 ```php
-use Alizharb\FilamentModuleManager\Services\ModuleBackupService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleBackupService;
 
 $service = app(ModuleBackupService::class);
 
@@ -475,7 +475,7 @@ Automated health checks with scoring and status categorization.
 #### Usage Example
 
 ```php
-use Alizharb\FilamentModuleManager\Services\ModuleHealthService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleHealthService;
 
 $service = app(ModuleHealthService::class);
 
@@ -518,7 +518,7 @@ Complete audit trail of all module operations for compliance and debugging.
 #### Usage Example
 
 ```php
-use Alizharb\FilamentModuleManager\Services\AuditLogService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\AuditLogService;
 
 $service = app(AuditLogService::class);
 
@@ -583,7 +583,7 @@ Advanced GitHub API integration with release management and OAuth support.
 #### Usage Example
 
 ```php
-use Alizharb\FilamentModuleManager\Services\GitHubService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\GitHubService;
 
 $service = app(GitHubService::class);
 
@@ -663,7 +663,7 @@ $changelog = $service->getChangelog('username/blog-module', 'v1.0.0');
 ### Programmatic Module Management
 
 ```php
-use Alizharb\FilamentModuleManager\Facades\ModuleManager;
+use EnterpriseAlxtexh\FilamentModuleManager\Facades\ModuleManager;
 
 // Enable a module
 ModuleManager::enable('Blog');
@@ -687,7 +687,7 @@ $result = ModuleManager::uninstallModule('Blog');
 ### Working with Dependencies
 
 ```php
-use Alizharb\FilamentModuleManager\Services\ModuleDependencyService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleDependencyService;
 
 $service = app(ModuleDependencyService::class);
 
@@ -704,7 +704,7 @@ $order = $service->resolveDependencies(['Blog', 'Shop', 'User']);
 ### Health Monitoring
 
 ```php
-use Alizharb\FilamentModuleManager\Services\ModuleHealthService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleHealthService;
 
 $service = app(ModuleHealthService::class);
 

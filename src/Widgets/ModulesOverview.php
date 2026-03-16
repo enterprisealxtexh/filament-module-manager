@@ -1,8 +1,8 @@
 <?php
 
-namespace Alizharb\FilamentModuleManager\Widgets;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Widgets;
 
-use Alizharb\FilamentModuleManager\Models\Module;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\Module;
 use Filament\Widgets\StatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Illuminate\Support\Facades\Route;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Services;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Services;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Models;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;

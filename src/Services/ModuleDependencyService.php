@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Services;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Services;
 
-use Alizharb\FilamentModuleManager\Data\ModuleDependencyData;
-use Alizharb\FilamentModuleManager\Exceptions\DependencyException;
-use Alizharb\FilamentModuleManager\Models\ModuleDependency;
+use EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleDependencyData;
+use EnterpriseAlxtexh\FilamentModuleManager\Exceptions\DependencyException;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\ModuleDependency;
 use Illuminate\Support\Collection;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 

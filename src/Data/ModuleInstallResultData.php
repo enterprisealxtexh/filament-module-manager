@@ -1,6 +1,6 @@
 <?php
 
-namespace Alizharb\FilamentModuleManager\Data;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Data;
 
 use Spatie\LaravelData\Attributes\DataCollectionOf;
 use Spatie\LaravelData\Attributes\Validation\ArrayType;

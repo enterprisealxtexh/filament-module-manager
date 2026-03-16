@@ -1,6 +1,6 @@
 <?php
 
-namespace Alizharb\FilamentModuleManager;
+namespace EnterpriseAlxtexh\FilamentModuleManager;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
@@ -16,7 +16,7 @@ class FilamentModuleManagerPlugin implements Plugin
     {
         $panel
             ->pages([
-                \Alizharb\FilamentModuleManager\Pages\ModuleManager::class,
+                \EnterpriseAlxtexh\FilamentModuleManager\Pages\ModuleManager::class,
             ]);
 
         if (config('filament-module-manager.widgets.enabled', true)) {

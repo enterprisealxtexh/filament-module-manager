@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Services;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Services;
 
-use Alizharb\FilamentModuleManager\Data\ModuleBackupData;
-use Alizharb\FilamentModuleManager\Exceptions\BackupException;
-use Alizharb\FilamentModuleManager\Models\ModuleBackup;
+use EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleBackupData;
+use EnterpriseAlxtexh\FilamentModuleManager\Exceptions\BackupException;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\ModuleBackup;
 use Illuminate\Support\Facades\File;
 use ZipArchive;
 

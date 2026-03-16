@@ -127,7 +127,7 @@ return [
          * @var array
          */
         'widgets' => [
-            \Alizharb\FilamentModuleManager\Widgets\ModulesOverview::class,
+            \EnterpriseAlxtexh\FilamentModuleManager\Widgets\ModulesOverview::class,
         ],
     ],
 

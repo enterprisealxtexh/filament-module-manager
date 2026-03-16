@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Policies;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Policies;
 
-use Alizharb\FilamentModuleManager\Models\Module;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\Module;
 use Illuminate\Auth\Access\HandlesAuthorization;
 use Illuminate\Foundation\Auth\User;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Alizharb\FilamentModuleManager\Pages;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Pages;
 
-use Alizharb\FilamentModuleManager\Models\Module;
-use Alizharb\FilamentModuleManager\Models\ModuleAuditLog;
-use Alizharb\FilamentModuleManager\Services\ModuleBackupService;
-use Alizharb\FilamentModuleManager\Services\ModuleHealthService;
-use Alizharb\FilamentModuleManager\Services\ModuleManagerService;
-use Alizharb\FilamentModuleManager\Services\ModuleUpdateService;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\Module;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\ModuleAuditLog;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleBackupService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleHealthService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleManagerService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleUpdateService;
 use BackedEnum;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;

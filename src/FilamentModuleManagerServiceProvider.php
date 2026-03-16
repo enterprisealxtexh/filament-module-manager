@@ -1,6 +1,6 @@
 <?php
 
-namespace Alizharb\FilamentModuleManager;
+namespace EnterpriseAlxtexh\FilamentModuleManager;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -21,8 +21,8 @@ class FilamentModuleManagerServiceProvider extends PackageServiceProvider
     public function packageBooted(): void
     {
         \Illuminate\Support\Facades\Gate::policy(
-            \Alizharb\FilamentModuleManager\Models\Module::class,
-            \Alizharb\FilamentModuleManager\Policies\ModulePolicy::class
+            \EnterpriseAlxtexh\FilamentModuleManager\Models\Module::class,
+            \EnterpriseAlxtexh\FilamentModuleManager\Policies\ModulePolicy::class
         );
     }
 }

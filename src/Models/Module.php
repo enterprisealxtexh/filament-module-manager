@@ -1,8 +1,8 @@
 <?php
 
-namespace Alizharb\FilamentModuleManager\Models;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Models;
 
-use Alizharb\FilamentModuleManager\Data\ModuleData;
+use EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleData;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Services;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Services;
 
-use Alizharb\FilamentModuleManager\Data\ModuleData;
-use Alizharb\FilamentModuleManager\Data\ModuleInstallResultData;
-use Alizharb\FilamentModuleManager\Exceptions\ModuleNotFoundException;
-use Alizharb\FilamentModuleManager\Models\Module;
+use EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleData;
+use EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleInstallResultData;
+use EnterpriseAlxtexh\FilamentModuleManager\Exceptions\ModuleNotFoundException;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\Module;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
@@ -236,7 +236,7 @@ class ModuleManagerService
                     }
                 }
 
-                $installedModules[] = Module::findData($moduleName) ?? new \Alizharb\FilamentModuleManager\Data\ModuleData(
+                $installedModules[] = Module::findData($moduleName) ?? new \EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleData(
                     name: $moduleNameFromJson,
                     alias: Str::lower($moduleNameFromJson),
                     description: null,

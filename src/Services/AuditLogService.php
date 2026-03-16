@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Services;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Services;
 
-use Alizharb\FilamentModuleManager\Models\ModuleAuditLog;
+use EnterpriseAlxtexh\FilamentModuleManager\Models\ModuleAuditLog;
 use Illuminate\Support\Facades\Request;
 
 /**

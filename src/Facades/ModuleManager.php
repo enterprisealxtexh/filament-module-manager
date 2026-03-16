@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Alizharb\FilamentModuleManager\Facades;
+namespace EnterpriseAlxtexh\FilamentModuleManager\Facades;
 
-use Alizharb\FilamentModuleManager\Services\ModuleManagerService;
+use EnterpriseAlxtexh\FilamentModuleManager\Services\ModuleManagerService;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static \Alizharb\FilamentModuleManager\Data\ModuleData|null enable(string $moduleName)
- * @method static \Alizharb\FilamentModuleManager\Data\ModuleData|null disable(string $moduleName)
- * @method static \Alizharb\FilamentModuleManager\Data\ModuleInstallResultData installModulesFromZip(string $relativeZipPath, bool $isAbsolute = false)
- * @method static \Alizharb\FilamentModuleManager\Data\ModuleInstallResultData installModuleFromGitHub(string $repo, string $branch = 'main')
- * @method static \Alizharb\FilamentModuleManager\Data\ModuleInstallResultData installModuleFromPath(string $path)
+ * @method static \EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleData|null enable(string $moduleName)
+ * @method static \EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleData|null disable(string $moduleName)
+ * @method static \EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleInstallResultData installModulesFromZip(string $relativeZipPath, bool $isAbsolute = false)
+ * @method static \EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleInstallResultData installModuleFromGitHub(string $repo, string $branch = 'main')
+ * @method static \EnterpriseAlxtexh\FilamentModuleManager\Data\ModuleInstallResultData installModuleFromPath(string $path)
  * @method static bool uninstallModule(string $moduleName)
  * @method static bool canDisable(string $moduleName)
  * @method static bool canUninstall(string $moduleName)
